@@ -1,0 +1,22 @@
+.admin__menu .level-0#menu-vrolijkonline-core-root > a:before {
+    content: url('../images/menu-icon.png');
+}
+
+.admin__menu .level-0#menu-vrolijkonline-core-root > a:hover:before {
+	content: url('../images/menu-icon-hover.png');
+}
+
+
+@media all and (-webkit-min-device-pixel-ratio : 1.5),
+ all and (-o-min-device-pixel-ratio: 3/2),
+ all and (min--moz-device-pixel-ratio: 1.5),
+ all and (min-device-pixel-ratio: 1.5) {
+ 
+  	.admin__menu .level-0#menu-vrolijkonline-core-root > a:before {
+	    content: url('../images/menu-icon-x2.png');
+	}
+
+	.admin__menu .level-0#menu-vrolijkonline-core-root > a:hover:before {
+		content: url('../images/menu-icon-hover-x2.png');
+	}
+}
